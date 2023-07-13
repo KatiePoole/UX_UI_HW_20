@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katie Poole</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header class="navigation">
+        <nav class="inlineBlock w40 flexEnd">
+            <ul class="navbarList flexEnd">
+                <li class="inlineBlock"><a href="index.html">Home</a></li>
+                <li class="inlineBlock"><a href="mywork.html" class="inuse">My Work</li>
+                <li class="inlineBlock"><a href="aboutme.html">About Me</a></li>
+                <li class="inlineBlock">Contact</li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <ul class="nav nav-tabs tabNav" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="intro-tab" data-toggle="tab" href="#intro" role="tab" aria-controls="intro"
+                aria-selected="true">Introduction</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research"
+                aria-selected="false">Research</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="problem-tab" data-toggle="tab" href="#problem" role="tab" aria-controls="problem"
+                aria-selected="false">Problem Statement</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design"
+                aria-selected="false">Design and interations</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="prototype-tab" data-toggle="tab" href="#prototype" role="tab"
+                aria-controls="prototype" aria-selected="false">Prototype</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
+            <div class="jumbotron jumbotron-fluid greenHeader">
+                <div class="container">
+                    <h1 class="display-4 center">Greyhound Trust <br>Website Redesign</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="intro">
+                            <h2>The Problem:</h2>
+                            <p>The ‘Greyhound Trust for Merseyside and Cheshire’ site lacks high quality pictures
+                                and
+                                sufficient
+                                information, making it difficult to understand the adoption process and find the
+                                right
+                                Greyhound.
+                            </p>
+                            <img src="Images\Group 17.png" class="ghIntroPics">
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="intro">
+                            <h2>The Solution:</h2>
+                            <p>A modern, trustworthy website with a high-quality design that provides concise and
+                                factual
+                                information, a simple adoption process and effective contact with the charity.
+                            </p><br>
+                            <img src="Images\Group 16.png" class="ghIntroPics">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="buttonContainer">
+                            <button type="button" class="btn btn-primary ghButton">View Full Case Study</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+            <div class="jumbotron jumbotron-fluid greenHeader">
+                <div class="container">
+                    <h1 class="display-4 center problemHeading">Understanding the Problem</h1>
+                </div>
+            </div>
+
+            <div class="researchIntro">To find out the problems users were having wth the current website we conducted
+                in-depth research and a
+                comprehensive heuristic evaluation.</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="researchContainer">
+                            <h2>6</h2>
+                            <p>Usability tests</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="researchContainer">
+                            <h2>47</h2>
+                            <p>Survey Respondents</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="researchContainer">
+                            <h2>6</h2>
+                            <p>Competitor sites analysed</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="tab-pane fade" id="problem" role="tabpanel" aria-labelledby="problem-tab">test 3</div>
+        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">design</div>
+        <div class="tab-pane fade" id="prototype" role="tabpanel" aria-labelledby="prototype-tab">design</div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
