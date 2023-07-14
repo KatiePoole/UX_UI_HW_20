@@ -615,52 +615,55 @@ a:hover {
     position: relative;
     top: 67vh;
     margin: 2%;
-    
+
 }
 
 .bounceMe {
-    height: 35px;   
+    height: 35px;
     animation: bounceArrow .7s infinite;
-  }
+}
 
-  .bottomRight {
+.bottomRight {
     display: none;
     position: absolute;
     bottom: 8px;
     right: 16px;
     font-size: 18px;
-  }
+}
 
-  
-  .turnButton {
+
+.turnButton {
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px 3px #ffffff;
-    
-  }
 
-  .cardContainer {
+}
+
+.cardContainer {
     height: 400px;
     object-fit: contain;
-  }
-  @keyframes bounceArrow {
+}
+
+@keyframes bounceArrow {
     from {
-      margin-top: 0px;
+        margin-top: 0px;
     }
+
     50% {
-      margin-top: 7px;
+        margin-top: 7px;
     }
+
     to {
-      margin-top: 0px;
+        margin-top: 0px;
     }
-  }
-  
+}
+
 
 /* media queries */
 
 @media only screen and (max-width: 1200px) {
 
-        .myWorkContainer {
+    .myWorkContainer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "gridArea1 gridArea2 "
@@ -671,7 +674,7 @@ a:hover {
 
     }
 
-        .buttonContainer {
+    .buttonContainer {
         flex-direction: column;
         align-items: center;
     }
@@ -748,10 +751,10 @@ a:hover {
         padding-right: 0;
     }
 
-   
 
- 
-  
+
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -808,7 +811,7 @@ a:hover {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: "gridArea1"
             "gridArea2"
-            "gridArea3" 
+            "gridArea3"
             "gridArea4"
             "gridArea5"
             "gridArea6";
@@ -823,8 +826,11 @@ a:hover {
 
     .bottomRight {
         display: block;
-        }
-   
+    }
+
+    .container {
+        padding: 10%;
+    }
 
 
 }
@@ -836,12 +842,14 @@ a:hover {
     width: 100%;
     position: fixed;
     background-color: white;
-   
+    z-index: 100000;
+
 
 }
+
 .greenHeader {
-background-color: #5BAA1E;
-margin-top: 5%;
+    background-color: #5BAA1E;
+    margin-top: 5%;
 
 }
 
@@ -853,18 +861,18 @@ margin-top: 5%;
 
 .intro {
     margin-left: 10%;
-     margin-right: 10%;
-     margin-bottom: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
-.ghIntroPics{
-        Height: 400px;
+.ghIntroPics {
+    Height: 400px;
 
 
 }
 
 .ghButton {
-    background-color:  #5BAA1E;
+    background-color: #5BAA1E;
     border-color: #5BAA1E;
     text-align: center;
     border-radius: 10px;
@@ -872,7 +880,7 @@ margin-top: 5%;
 }
 
 .ghButton:hover {
-    background-color:  #2d6601;
+    background-color: #2d6601;
     border-color: #2d6601;
     text-align: center;
 
@@ -889,15 +897,54 @@ margin-top: 5%;
 }
 
 .researchContainer {
-    background-color: #9fbe87;
+    background-color: #D9EAD3;
     border-radius: 20px;
     text-align: center;
     margin: 10%;
     padding: 10%;
- 
+
 }
 
 .nav-link:hover {
     color: #60c512 !important;
 
+}
+
+.orange {
+    background-color: #F9C679;
+}
+
+.small {
+    margin: 3%;
+}
+
+.empathyMap {
+    width: 70%;
+    max-width: 70%;
+
+}
+
+.empathyMapContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.space {
+    height: 50px;
+}
+
+.spaceBig {
+    height: 25vh;
+
+}
+
+.wireframes {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nav-right {
+    text-align: right;
 }
