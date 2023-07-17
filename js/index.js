@@ -8,3 +8,9 @@ $( document ).ready(function() {
         $(".moveBase").removeClass("quoteMove")
     }, 600)
 });
+
+
+$("#research-tab").click(function(){
+    $(window).scrollTop(0);
+  });
+
